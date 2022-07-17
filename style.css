@@ -51,3 +51,7 @@ form {
     font-size: 24px;
     display: block;
 }
+
+#link {
+    text-align: center;
+}
