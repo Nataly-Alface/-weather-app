@@ -53,6 +53,10 @@ function displayWeather(responce) {
     let city = document.querySelector("#city");
      city.innerHTML = responce.data.name; 
 }
+
+// function displayWind(wind_responce) {
+//     console.log(wind_responce);
+// }
 // displayWeather();
 
 // Location
