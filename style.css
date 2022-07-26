@@ -1,58 +1,75 @@
-body{
-    background-color: rgb(143, 212, 254);
+.weather-app {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #dadde1;
+    border-radius: 7px;
 }
+
 h1 {
-    
-    padding-top: 30px;
+
+    padding-top: 15px;
     text-align: center;
     font-size: 35px;
+    color: #878787;
     /* font-weight: 700; */
 }
+
 h2 {
     color: blue;
+    /* color: #878787; */
     text-align: center;
     margin: 20px auto 20px auto;
-    padding-top: 40px;
-    font-size: 43px;
+    padding-top: 10px;
+    font-size: 28px;
+    /* font-weight: 200px; */
     font-weight: 600;
     font-family: PT Mono, monospace;
 }
+
 form {
     text-align: center;
     padding-top: 20px;
 
 }
+
+#second_col {
+    margin-top: 23px;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(135, 135, 135);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+}
+
+li:first-letter {
+    text-transform: capitalize;
+}
+
 #city {
     color: black;
     font-weight: 400;
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
-    margin: 40px auto 20px auto;
+    /* margin: 10px 80px 10px auto; */
     font-family: PT Mono, monospace;
-    font-size: 22px;
+    font-size: 21px;
     display: block;
+    margin-top: 20px;
 }
 
-#currentDateAndTime{
+#currentDateAndTime {
     color: black;
     text-align: center;
     margin: 20px auto 20px auto;
     font-family: PT Mono, monospace;
-    font-size: 24px;
+    font-size: 22px;
     display: block;
-    
-}
+    /* margin-top: 10px; */
 
-#temperature{
-    color: black;
-    text-align: center;
-    margin: 20px auto 20px auto;      
-    font-family: PT Mono, monospace;
-    font-size: 24px;
-    display: block;
-}
-
-#link {
-    text-align: center;
-    margin: 40px auto 5px 20px;
 }
